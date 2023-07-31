@@ -1,0 +1,53 @@
+.cabecalho{
+   justify-content: left;
+
+   display: flex;
+
+   gap: 10px;
+   
+   background-color: rgb(255, 255, 255);
+}
+
+.formataLink{
+
+    text-decoration: none;
+
+    color: black;
+
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   font-style: normal;
+}
+
+a:hover{
+    color: rgb(98, 91, 223);
+}
+
+.menu{
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+
+    height: 40px;
+
+    width: 100%;
+
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.imgLogo{
+    transform: translate(-54px, -1px);
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 200px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+   align-items: first baseline;
+}

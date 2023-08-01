@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML,Streaming">
-    <title>Favoritos</title>
+    <title>Crie uma conta</title>
     <link href="Estilo.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="png-clipart-film-clapperboard-computer-icons-others-rectangle-black.png">
 </head>
@@ -15,7 +15,7 @@
         <img src="png-clipart-film-clapperboard-computer-icons-others-rectangle-black.png" alt="Logo" width="100px">
         <div>
           <h1>Streaming Videos</h1>
-      </div>
+        </div>
    </header>
    <nav class="menu">
     <a href="Página de streaming.html" class="formataLink">Ínicio</a>
@@ -25,10 +25,42 @@
     <a href="Criar conta.html" class="formataLink">Crie uma conta</a>
    </nav>
     <br>
-    <h2>Nenhum filme adicionado aos favoritos 😢</h2>
-    <br>
-    <footer class="footer">
-        <span>&copy;2023 - Streaming Videos</span>
-    </footer>
+    <h2>Preencha os campos para criar sua conta:</h2>
+    <form method="post"> 
+
+        <p>
+        <label for="nome">Nome:</label>
+        <input for="nome" required>
+        </p>
+
+        <p>
+        <label for="email">Email:</label>
+        <input type="email">
+        </p>
+
+        <p>
+        <label for="senha">Senha:</label>
+        <input type="password">
+        </p>
+
+        <p>
+            <label for="senha2">Confirme a senha:</label>
+            <input type="password">
+        </p>
+
+        <p>
+            <label for="nascimento">Informe a sua data de nascimento</label>
+            <input type="date">
+        </p>
+
+        <p>
+            <input type="submit" value="Criar conta">
+        </p>
+
+    </form>
+        <br>
+        <footer class="footer">
+            <span>&copy;2023 - Streaming Videos</span>
+        </footer>
 </body>
 </html>
